@@ -175,9 +175,5 @@ public class smarthouse {
                 }
             }
         }while(systemRunning);
-
-
-
-
     }
 }
