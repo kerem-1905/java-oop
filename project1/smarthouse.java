@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class smarthouse {
     public static void main(String[] args){
 
-        // The system objects
         Scanner scanner = new Scanner(System.in);
         lightsystem light = new lightsystem();
         airconditioner ac = new airconditioner();
@@ -30,7 +29,6 @@ public class smarthouse {
 
             choice = scanner.nextInt();
 
-            // Nested switches for different interfaces depending on the input
             switch(choice){
                 case 1 -> {
                     System.out.println("Light System Settings");
@@ -178,7 +176,6 @@ public class smarthouse {
             }
         }while(systemRunning);
 
-        // Keeps system running until the exit command
 
 
 
